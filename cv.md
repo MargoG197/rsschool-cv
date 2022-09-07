@@ -69,7 +69,7 @@ Department of Economics, ECONOMICS AND MANAGEMENT
 
 
 ### Strengths
-Negotiation skills  * Prudence  * Английский — C2 — Продвинутый  * Chinese - HSK6  * Leadership Skills  * Analytical skills  * Multitasking  * Communication * Strategy  * Quality Management  * Business Strategy  * Public Speaking * Presentation skills  * Business communication  * Strategic Management  * Information Technology  * Business Development
+Negotiation skills  * Prudence  * English — C2 —  Proficiency  * Chinese - HSK6  * Leadership Skills  * Analytical skills  * Multitasking  * Communication * Strategy  * Quality Management  * Business Strategy  * Public Speaking * Presentation skills  * Business communication  * Strategic Management  * Information Technology  * Business Development
 
 
 ### Professional development, courses

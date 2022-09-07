@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Моя первая страница</title>
+<link rel="stylesheet" href="styles.css" type="text/CSS">
+</head>
+<body class = "sheetOfPaper">
+
+<section class="mainInfo">
+<img src="22.05.2022-0044 п.jpg" width="200px" height="300px">
+
+<p class="contacts">
+    <p class="contact_1"><img src="https://img.icons8.com/fluency/40/000000/circled-envelope.png"/><a href="mailto:gonhcarovarita@mail.ru">goncharovarita@mail.ru</a></p><br>
+    <p class="contact_1"><img src="https://img.icons8.com/color/40/000000/telegram-app--v1.png"/><a href="tel:+7 (928) 4457427">+7 (928) 4457427</a></p><br>
+    <p class="contact_1"><img src="https://img.icons8.com/color/40/000000/skype--v1.png"/><a href="skype: margo.goncharova">margo.goncharova</a></p>
+</p>
+<p>
+<h4>Skills and Proficiency</h4>
+<ul class="skills">
+    <li>HTML5, CSS3</li>
+    <li>JavaScript Basics</li>
+    <li>Git, <a href="https://github.com/MargoG197"></a>GitHub</li> 
+    <li>VS Code</li>
+    <li>Webpack</li>
+    <li>TypeScript</li>
+    <li>Figma</li>
+</ul>
+</p>
+
+</p>
+<p class="languages">
+    <h4>Languages</h4>
+    <li>Russian — Native</li>
+    <li>English — C2 — Proficiency</li>
+    <li>Chinese — C1 — Advanced</li>
+</p>
+<p>
+    <h4>Strengths</h4>
+    <ul class="strengths"> 
+    <li>Negotiation skills</li>  <li>Prudence</li> <li>English — C2</li> 
+    <li>Quality management</li> <li>Leadership skills</li>  <li>Analytical skills</li> 
+    <li>Chinese HSK6</li> <li>Multitasking</li> <li>Communication strategy</li> 
+    <li>Business strategy</li> <li>Public speaking</li> <li>Presentation skills</li> <li>Business communication</li> 
+    <li>Strategic management</li> <li>Information Technology</li> <li>Business development</li>
+     </ul>
+</p>
+    </section>
+
+    <aside class="mainContent">
+<h1>Goncharova Margarita</h1>
+<h4>Junior Frontend Developer</h4>
+<hr>
+
+<h3>Briefly About Myself</h3>
+<p class="text">Since University graduation I used to work in Hospitality industry. I used to work in 3-5* hotels in different parts of Sochi. <br>
+Then I worked for international cruise company Viking Cruises for three years as a Program Director of a river Cruise Ship. <br>
+And now I intended to start new carrier in IT industry. Since I find this industry dynamically developing and advanced.</p>
+<p class="text">I speak fluent English and advanced Chinese.  Often, I take different topics online courses for self-education.<br>
+And now I dedicate my time to study Frontend Development, as I am deeply interested in becoming one of developers quite shortly.
+</p><br>
+<h3>Code example</h3>
+<a href="https://github.com/MargoG197/Figma-pr-1/blob/main/JS/js.js">Full code for pictures slider</a>
+<p>Part of a code: Activate arrows, so they can change pictures on a page.</p>
+
+<pre class="code">
+ <code>
+function initArrows(){
+sliderArrows.querySelectorAll(".slider__arrow").forEach(arrow => {
+arrow.addEventListener("click", function() {
+let currentNumber = +sliderImages.querySelector(".active").dataset.index;
+let nextNumber;
+if(arrow.classList.contains("left")){
+    nextNumber = currentNumber === 0? images.length - 1 : currentNumber - 1;
+} else {
+    nextNumber = currentNumber === images.length - 1 ? 0 : currentNumber + 1;
+};
+moveSlider(nextNumber);
+});
+});
+}
+</code>
+</pre>
+<p>
+    <h3>Education</h3>
+    2007 – 2013 Sochi State University, Sochi
+    Department of Economics, ECONOMICS AND MANAGEMENT
+
+</p>
+<p>
+    <h3>Professional development, courses</h3>
+<ul class="courses">
+    <li>2022 Chinese school Sentan
+<a href="https://www.sentan.ru/">https://www.sentan.ru/</a>, Chinese language HSK4, HSK5, HSK6</li>
+
+<li>2022 Skillfactory
+<a href="https://skillfactory.ru/">https://skillfactory.ru/</a>, Специализация «Frontend-разработчик»</li>
+
+<li>2021
+Peking University
+<a href="coursera.com">coursera.com</a>, Chinese for HSK 4, HSK 5</li>
+
+<li>2020 University of Illinois at Urbana-Champaign
+<a href="coursera.com">coursera.com</a>, Country Level Economics: Macroeconomic Variables and Markets</li>
+
+<li>2019 Viking cruises
+<a href="https://www.vikingcruises.com/">vikingcruises.com</a>, Public speaking, strong leadership, complaint management</li>
+
+<li>2019 University of Washington
+<a href="www.coursera.com">www.coursera.com</a>,  Introduction to Public Speaking</li>
+
+<li>2018 Viking cruises
+<a href="https://www.vikingcruises.com/">vikingcruises.com</a>, Quality management, what do great managers do, sales and upsales</li>
+
+<li>2018 University of Michigan
+<a href="www.coursera.com">www.coursera.com</a>,  Successful Negotiation: Essential Strategies and Skills</li>
+
+<li>2017 Taiwan Normal University
+<a href="https://en.ntnu.edu.tw/">https://en.ntnu.edu.tw/</a>, Chinese language HSK3
+</li>
+</ul>
+
+</p>
+    </aside>
+
+</body>
+</html>

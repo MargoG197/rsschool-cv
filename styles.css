@@ -1,0 +1,96 @@
+
+html{
+    background-color: #4F5D65;
+}
+.sheetOfPaper{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 800px;
+margin: 100px 250px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.mainInfo{
+    width: 300px;
+    background-color: #9F827A;
+    padding: 50px 40px;
+    }
+.mainInfo >h4{
+    margin-top: 50px;
+}
+
+.mainContent{
+    width: 500px;
+    background-color: #A3B8C3;
+    padding: 50px 50px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+   .code{
+    display: inline-block;
+    background-color: #F0ECEB;
+    padding: 0 10px;
+    margin-left: -30px;
+    width: auto;
+
+   }
+
+   .contacts{
+display: flex;
+
+   }
+  
+.contact_1
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px -15px;
+    
+}
+
+.contact_1 img{
+    padding-left: 10px;
+}
+
+   .strengths{
+    margin-left: -40px;
+   }
+
+   .strengths li{
+    display: inline-block;
+    background-color: #8F5C4D;
+    margin: 2px;
+    padding: 2px;
+    
+   }
+
+   .skills li{
+    list-style: circle;
+    margin-left: -20px;
+   }
+
+   .courses li{
+    margin-left: -40px;
+    margin-top: 5px;
+   }
+   .courses :nth-child(2n){
+    background-color: #C5C6C6;
+   }
+   .courses :nth-child(2n+1){
+    background-color:#BCCBD3;
+   }
+   .courses :nth-child(2n) >a{
+    background-color:#C5C6C6;
+   }
+
+   .text{
+    text-indent: 25px;
+   }
